@@ -1,68 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Adadiche Styled It</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adadiche Styled It</title>
+  <meta name="description" content="Adadiche Styled It - elegant fashion pieces, custom styles, and classy looks." />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-<header class="header">
-  <h1>Adadiche</h1>
-  <p>Styled It</p>
-</header>
-
-<section class="hero">
-  <img src="green-dress-front.png" alt="Featured">
-  <div class="overlay">
-    <h2>Elegant Fashion for Every Occasion</h2>
-    <p>Custom pieces. Unique style. Made for you.</p>
-  </div>
-</section>
-
-<section class="collection">
-  <h2>Featured Looks</h2>
-
-  <div class="grid">
-
-    <div class="item">
-      <img src="blue-dress.png">
-      <p>Chic Mini Dress</p>
+  <header class="site-header">
+    <div class="logo-wrap">
+      <img src="logo.png" alt="Adadiche logo" class="logo" />
+      <p class="brand-subtitle">Styled It</p>
     </div>
 
-    <div class="item">
-      <img src="lion-dress-front.png">
-      <p>Luxury Ankara Gown</p>
+    <nav class="nav">
+      <a href="#collection">Collection</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="green-dress-front.png" alt="Featured Adadiche dress" class="hero-image" />
+    <div class="hero-overlay">
+      <p class="hero-small">Elegant • Feminine • Classy</p>
+      <h1>Style That Speaks Before You Do</h1>
+      <p class="hero-text">
+        Discover beautiful fashion pieces designed to make you feel confident, stylish, and unforgettable.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="https://wa.me/2347071140118" class="btn btn-whatsapp">Order on WhatsApp</a>
+        <a href="https://instagram.com/chidiebere_divine_" class="btn btn-instagram" target="_blank">View Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="collection" class="section">
+    <div class="section-heading">
+      <p class="section-label">Our Collection</p>
+      <h2>Featured Looks</h2>
+      <p class="section-text">
+        Carefully styled outfits for women who love elegance and standout fashion.
+      </p>
     </div>
 
-    <div class="item">
-      <img src="green-dress-side.png">
-      <p>Evening Elegance</p>
+    <div class="gallery">
+      <article class="card">
+        <img src="blue-dress.png" alt="Blue mini dress" />
+        <div class="card-body">
+          <h3>Mini Dress</h3>
+          <p>Elegant, chic, and perfect for stylish outings.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="lion-dress-front.png" alt="Luxury gown" />
+        <div class="card-body">
+          <h3>Luxury Gown</h3>
+          <p>A bold statement piece for special occasions.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="green-dress-side.png" alt="Evening dress" />
+        <div class="card-body">
+          <h3>Evening Dress</h3>
+          <p>Graceful and classy for events and celebrations.</p>
+        </div>
+      </article>
     </div>
 
-  </div>
+    <p class="price-note">Price on request</p>
+  </section>
 
-  <p class="note">Price on request</p>
-</section>
+  <section id="about" class="section about-section">
+    <div class="about-box">
+      <p class="section-label">About Adadiche</p>
+      <h2>Fashion with a classy touch</h2>
+      <p>
+        Adadiche Styled It is all about elegant fashion, custom beauty, and standout looks.
+        We create styles that help you feel confident, feminine, and unique.
+      </p>
+    </div>
+  </section>
 
-<section class="cta">
-  <h2>Ready to order?</h2>
-  <p>Send a message to get your perfect fit</p>
+  <section id="contact" class="section contact-section">
+    <div class="section-heading">
+      <p class="section-label">Contact</p>
+      <h2>Ready to order?</h2>
+      <p class="section-text">
+        Send a message on WhatsApp or visit our Instagram page for more styles and inquiries.
+      </p>
+    </div>
 
-  <a href="https://wa.me/2347071140118" class="btn whatsapp">
-    Order on WhatsApp
-  </a>
+    <div class="contact-buttons">
+      <a href="https://wa.me/2347071140118" class="btn btn-whatsapp">Chat on WhatsApp</a>
+      <a href="https://instagram.com/chidiebere_divine_" class="btn btn-instagram" target="_blank">Visit Instagram</a>
+    </div>
+  </section>
 
-  <a href="https://instagram.com/chidiebere_divine_" class="btn instagram">
-    View Instagram
-  </a>
-</section>
-
-<footer>
-  <p>Adadiche • Custom Designs Available</p>
-</footer>
+  <footer class="site-footer">
+    <p>© 2026 Adadiche Styled It. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
